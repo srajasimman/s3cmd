@@ -9,7 +9,7 @@ on:
   # schedule:
   #   - cron: '37 7 * * *'
   push:
-    tags: [ 'v*.*','latest' ]
+    tags: [ '*.*.*','latest' ]
   pull_request:
     branches: [ "main" ]
 
